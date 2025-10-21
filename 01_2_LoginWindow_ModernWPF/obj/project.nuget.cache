@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0viDDInknfw=",
+  "dgSpecHash": "7bIMiY6kRFM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_2_LoginWindow_ModernWPF.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_04_LoginWindow_ModernWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korisnik\\.nuget\\packages\\modernwpfui\\0.9.6\\modernwpfui.0.9.6.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_LoginWindow_WPF\\01_LoginWindow_WPF.csproj",
-      "projectName": "01_LoginWindow_WPF",
-      "projectPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_LoginWindow_WPF\\01_LoginWindow_WPF.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_LoginWindow_WPF\\01_02_LoginWindow_WPF.csproj",
+      "projectName": "01_02_LoginWindow_WPF",
+      "projectPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_LoginWindow_WPF\\01_02_LoginWindow_WPF.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_LoginWindow_WPF\\obj\\",
       "projectStyle": "PackageReference",

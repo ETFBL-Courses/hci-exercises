@@ -323,9 +323,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_1_LoginWindow_MaterialDesign.csproj",
-      "projectName": "01_1_LoginWindow_MaterialDesign",
-      "projectPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_1_LoginWindow_MaterialDesign.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_03_LoginWindow_MaterialDesign.csproj",
+      "projectName": "01_03_LoginWindow_MaterialDesign",
+      "projectPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_03_LoginWindow_MaterialDesign.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\obj\\",
       "projectStyle": "PackageReference",

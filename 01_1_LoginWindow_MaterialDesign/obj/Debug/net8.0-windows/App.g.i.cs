@@ -62,7 +62,7 @@ namespace _01_1_LoginWindow_MaterialDesign {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/01_1_LoginWindow_MaterialDesign;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/01_03_LoginWindow_MaterialDesign;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

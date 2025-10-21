@@ -1,0 +1,44 @@
+﻿<Window
+    x:Class="_01_Panels.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:_01_Panels"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Panels"
+    Width="250"
+    Height="265"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            Height="30"
+            Margin="40,20,40,0"
+            VerticalAlignment="Top"
+            Click="CanvasButton_Click"
+            Content="Canvas" />
+        <Button
+            Height="30"
+            Margin="40,60,40,0"
+            VerticalAlignment="Top"
+            Click="DockPanelButton_Click"
+            Content="DockPanel" />
+        <Button
+            Height="30"
+            Margin="40,100,40,0"
+            VerticalAlignment="Top"
+            Click="GridButton_Click"
+            Content="Grid with splitter" />
+        <Button
+            Height="30"
+            Margin="40,140,40,0"
+            VerticalAlignment="Top"
+            Click="StackPanelButton_Click"
+            Content="StackPanel" />
+        <Button
+            Height="30"
+            Margin="40,180,40,0"
+            VerticalAlignment="Top"
+            Click="WrapPanelButton_Click"
+            Content="WrapPanel" />
+    </Grid>
+</Window>
