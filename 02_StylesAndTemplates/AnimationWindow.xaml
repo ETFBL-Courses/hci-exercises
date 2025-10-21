@@ -1,0 +1,134 @@
+﻿<Window
+    x:Class="_02_StylesAndTemplates.AnimationWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:_02_StylesAndTemplates"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Animation"
+    Width="250"
+    Height="200"
+    ResizeMode="CanMinimize"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="ButtonAwesome" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Rectangle
+                                x:Name="Background"
+                                Fill="Gray"
+                                Opacity="1"
+                                RadiusX="9"
+                                RadiusY="9"
+                                StrokeThickness="0.35">
+                                <Rectangle.Stroke>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Offset="0" Color="White" />
+                                        <GradientStop Offset="1" Color="#666666" />
+                                    </LinearGradientBrush>
+                                </Rectangle.Stroke>
+                            </Rectangle>
+                            <Rectangle
+                                x:Name="Glow"
+                                Height="15"
+                                Margin="2,2,2,0"
+                                VerticalAlignment="Top"
+                                Opacity="1"
+                                RadiusX="6"
+                                RadiusY="6"
+                                Stroke="Transparent">
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Offset="0" Color="#ccffffff" />
+                                        <GradientStop Offset="1" Color="Transparent" />
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Background" Property="Fill">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Offset="0" Color="Lime" />
+                                            <GradientStop Offset="1" Color="DarkGreen" />
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="Button.IsPressed" Value="True">
+                                <Setter TargetName="Background" Property="Fill">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Offset="0" Color="#89B630" />
+                                            <GradientStop Offset="1" Color="#1E2D00" />
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Button.IsPressed" Value="True">
+                    <Setter Property="Foreground" Value="Black" />
+                </Trigger>
+                <Trigger Property="Button.IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="Black" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style
+            x:Key="ButtonAnimated"
+            BasedOn="{StaticResource ButtonAwesome}"
+            TargetType="Button">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" TargetProperty="Height">
+                                <DoubleAnimation
+                                    AutoReverse="True"
+                                    From="50"
+                                    To="20"
+                                    Duration="0:0:3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard TargetProperty="Height">
+                                <DoubleAnimation To="50" Duration="0:0:0.5" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button
+            Height="50"
+            Margin="20"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Top"
+            Style="{StaticResource ButtonAwesome}">
+            <TextBlock TextAlignment="Center">
+                Awesome button<LineBreak />
+                (without animation)</TextBlock>
+        </Button>
+        <Button
+            Height="50"
+            Margin="20,70,20,20"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center"
+            Content="Button with animation"
+            Style="{StaticResource ButtonAnimated}" />
+    </Grid>
+</Window>
