@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRyj1duvODY=",
+  "dgSpecHash": "exg7y9wv2nI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_03_LoginWindow_MaterialDesign.csproj",
+  "projectFilePath": "C:\\Users\\Vanja\\source\\repos\\ETFBL-Courses\\hci-exercises\\01_1_LoginWindow_MaterialDesign\\01_03_LoginWindow_MaterialDesign.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Korisnik\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
-    "C:\\Users\\Korisnik\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
-    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+    "C:\\Users\\Vanja\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\Vanja\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\Vanja\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
   ],
   "logs": []
 }

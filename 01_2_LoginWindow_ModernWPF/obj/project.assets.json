@@ -960,23 +960,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {},
+    "C:\\Users\\Vanja\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_04_LoginWindow_ModernWPF.csproj",
+      "projectUniqueName": "C:\\Users\\Vanja\\source\\repos\\ETFBL-Courses\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_04_LoginWindow_ModernWPF.csproj",
       "projectName": "01_04_LoginWindow_ModernWPF",
-      "projectPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_04_LoginWindow_ModernWPF.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\source\\repos\\hci-exercises\\01_2_LoginWindow_ModernWPF\\obj\\",
+      "projectPath": "C:\\Users\\Vanja\\source\\repos\\ETFBL-Courses\\hci-exercises\\01_2_LoginWindow_ModernWPF\\01_04_LoginWindow_ModernWPF.csproj",
+      "packagesPath": "C:\\Users\\Vanja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vanja\\source\\repos\\ETFBL-Courses\\hci-exercises\\01_2_LoginWindow_ModernWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -985,8 +985,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/Kinnara/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -1004,7 +1003,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1034,7 +1033,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

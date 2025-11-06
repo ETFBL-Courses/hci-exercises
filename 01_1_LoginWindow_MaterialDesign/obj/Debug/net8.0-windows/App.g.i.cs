@@ -50,7 +50,7 @@ namespace _01_1_LoginWindow_MaterialDesign {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.4.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.9.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -76,7 +76,7 @@ namespace _01_1_LoginWindow_MaterialDesign {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.4.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.9.0")]
         public static void Main() {
             _01_1_LoginWindow_MaterialDesign.App app = new _01_1_LoginWindow_MaterialDesign.App();
             app.InitializeComponent();
